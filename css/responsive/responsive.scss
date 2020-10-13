@@ -1,0 +1,1156 @@
+/*-------------------------------------------------Mobile-------------------------------------------------------------*/
+@media all and (min-width: 320px) {
+  .mobile-responsive {
+    margin: 0px;
+  }
+  .position-absolute {
+    position: absolute !important;
+    z-index: 999;
+  }
+  .hr-blog {
+    display: block;
+    width: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 0.1px inset $violet;
+  }
+  .product {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .title {
+    font-family: $font-primary;
+    line-height: 17px;
+    margin-left: 16px;
+  }
+  .product-item {
+    margin-top: 10px;
+  }
+  .product-content {
+    margin-top: 20px;
+  }
+  .product-list1 {
+    margin: 0px;
+  }
+  .product-list2 {
+    margin-top: 0px;
+    margin-left: 2px;
+  }
+  .product-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+  .product-detail {
+    font-family: $font-primary;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+  }
+  .rating {
+    font-size: 10pt;
+    padding-top: 2px;
+  }
+  .price {
+    margin-top: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 13pt;
+    color: $violet;
+  }
+  .product-button {
+    @include button_product(5px, 5px, 50%, 9%, 14pt);
+  }
+  .blog {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  p.blog-title__name1 {
+    padding-top: 50px;
+  }
+  .blog-detail-title {
+    font-family: $font-primary;
+    font-size: 13pt;
+  }
+  .blog-detail-description {
+    font-size: 11pt;
+    margin-top: 0px;
+    line-height: none;
+    margin-right: 14px;
+  }
+  .blog-detail {
+    background-color: white;
+    padding: 0px;
+    width: 100%;
+  }
+  .blog-content i {
+    margin-right: 2px;
+    margin-top: 10px;
+    font-size: 12pt;
+  }
+  .blog-content i {
+    margin-left: 3px;
+  }
+  .footer {
+    margin-left: 0px;
+  }
+  .location {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .footer-title {
+    font-family: $font-primary;
+    font-size: 12.5pt;
+    font-weight: 400;
+    color: white;
+    margin-top: 31px;
+    margin-left: 5px;
+  }
+  p.footer-description {
+    font-family: $font-primary;
+    margin-top: 20px;
+    font-size: 10pt;
+    line-height: 22px;
+    margin-right: 57px;
+  }
+  .social-link {
+    font-size: 0px;
+    display: block;
+    margin-left: 3px;
+    margin-bottom: 0px;
+  }
+  .right-menu {
+    margin-left: 80px;
+    line-height: 29px;
+  }
+  .footer-menu {
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+  }
+  .last-footer p {
+    font-family: $font-primary;
+    font-size: 8pt;
+    letter-spacing: 0.2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .last-footer .payment-method {
+    font-size: 15pt;
+    margin-top: 0px;
+    float: left;
+  }
+  .top-header p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 7pt;
+  }
+  .header__main-menu {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    height: 83px;
+  }
+  .top-header a {
+    display: inline-block;
+    margin-right: 3px;
+    color: silver;
+    text-decoration: none;
+    font-size: 7pt;
+    margin-top: 0px;
+  }
+  .top-header {
+    background-image: url(../images/back_ground_top.jpg);
+    height: auto;
+  }
+  .top-header i {
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .header-navbar {
+    align-items: center;
+  }
+  .header-menu {
+    margin-left: 0px;
+    height: auto;
+  }
+  .header-navbar {
+    align-items: stretch;
+  }
+  .logo {
+    width: 40%;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .header-menu1 {
+    text-align: center;
+  }
+  .menu-icon {
+    font-size: 13pt;
+    margin-left: 36px;
+    margin-top: 15px;
+  }
+  a.nav-link.women {
+    margin-left: 0px;
+  }
+  a.nav-link.men {
+    margin-left: 0px;
+  }
+  a.nav-link.about-us {
+    margin-left: 0px;
+    letter-spacing: -0.2px;
+  }
+  a.nav-link.blog-link {
+    margin-left: 0px;
+  }
+
+  a.nav-link.collection {
+    margin-left: 0px;
+    letter-spacing: -0.6px;
+  }
+
+  a.nav-link.contact {
+    margin-left: 0px;
+  }
+
+  i.fa.fa-search {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 14pt;
+    font-size: 15pt;
+  }
+  nav.navbar.navbar-expand-md.navbar-light {
+    z-index: 999;
+  }
+  .banner1__img {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .banner1-button {
+    @include button_banner1(64%, 59%, 26%, 12%, 8pt, 600);
+    padding: 8px 2px 8px 2px;
+  }
+  .banner2-button {
+    @include button_banner2(55%, 13%, 37%, 19%, 12pt);
+    padding: 5px 2px 5px 2px;
+  }
+  ul.double-image {
+    display: block;
+  }
+  .banner3 {
+    padding-right: 0px;
+  }
+  .banner2__img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .banner {
+    margin-top: 43px;
+    margin-left: 0px;
+  }
+  p.ad1 {
+    @include text-ad1(54%, 44%, 10pt);
+  }
+  .text-banner2 {
+    @include text-banner2(13%, 16%, 16pt);
+    line-height: 32px;
+  }
+  .text-banner3 {
+    @include text-banner3(25%, 12%, 15pt);
+    line-height: 35px;
+  }
+  .title-about {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  .location-title {
+    margin-top: 25px;
+  }
+  .title-footer-nav {
+    margin-top: 25px;
+  }
+  p.location-phone {
+    font-size: 11pt;
+    margin-top: 8px;
+  }
+  p.location-email {
+    font-size: 11pt;
+    margin-top: 16px;
+  }
+}
+@media all and (min-width: 360px) {
+  .banner1-button {
+    @include button_banner1(64%, 59%, 26%, 12%, 8pt, 600);
+  }
+  .banner2-button {
+    @include button_banner2(55%, 13%, 37%, 19%, 14pt);
+  }
+  p.ad1 {
+    @include text-ad1(53%, 39%, 14pt);
+  }
+  .last-footer p {
+    font-size: 9pt;
+  }
+  .payment-method {
+    font-size: 12pt;
+  }
+}
+@media all and (min-width: 480px) {
+  .banner1-button {
+    @include button_banner1(64%, 59%, 26%, 12%, 14pt, 600);
+  }
+  .banner2-button {
+    @include button_banner2(55%, 13%, 37%, 19%, 16pt);
+  }
+  p.ad1 {
+    @include text-ad1(54%, 44%, 16pt);
+  }
+  .last-footer p {
+    font-size: 13pt;
+  }
+  .payment-method {
+    font-size: 18pt;
+  }
+}
+@media all and (min-width: 440px) {
+  i.fa.fa-phone {
+    margin-top: 40px;
+  }
+  p.location-phone {
+    margin-top: 0px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media all and (min-width: 445px) {
+  p.location-phone {
+    margin-top: 26px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media all and (max-width: 492px) {
+  .header-setting {
+    margin-top: -9px;
+  }
+}
+/*-------------------------------------------------Mobile-Vertical-------------------------------------------------------------*/
+@media all and (min-width: 576px) {
+  .hr-blog {
+    display: block;
+    width: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 0.1px inset $violet;
+  }
+  .hr-footer {
+    display: block;
+    width: 100%;
+    margin-top: 23px;
+    border: 0.1px inset silver;
+    opacity: 0.2;
+  }
+  .header__main-menu {
+    display: flex;
+    width: 100%;
+    border: none;
+    height: 83px;
+  }
+  .header-menu {
+    margin-left: 15px;
+    height: auto;
+  }
+  .logo {
+    width: 68%;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+  .top-header p {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 0px;
+    font-size: 8pt;
+  }
+  .header-setting {
+    margin-top: 4px;
+  }
+  .top-header a {
+    font-size: 8pt;
+  }
+  .header-navbar {
+    align-items: stretch;
+    width: 100%;
+  }
+  li.nav-item {
+    font-family: $font-primary;
+    font-size: 8pt;
+    font-weight: 800;
+    margin-top: 8px;
+  }
+  a.nav-link.women {
+    margin-left: 0px;
+  }
+  a.nav-link.men {
+    margin-left: 0px;
+  }
+  a.nav-link.about-us {
+    margin-left: 0px;
+    letter-spacing: -0.2px;
+  }
+  a.nav-link.blog-link {
+    margin-left: 0px;
+  }
+
+  a.nav-link.collection {
+    margin-left: 0px;
+    letter-spacing: -0.6px;
+  }
+
+  a.nav-link.contact {
+    margin-left: 0px;
+  }
+
+  i.fa.fa-search {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 14pt;
+    font-size: 8pt;
+  }
+  .menu-icon {
+    font-size: 4pt;
+    margin: 0;
+    float: right;
+    margin-top: 12px;
+  }
+  .header__main-menu i {
+    font-size: 13pt;
+  }
+  .header-menu1 {
+    order: 2;
+    text-align: center;
+  }
+  .header-menu2 {
+    order: 1;
+  }
+  .header-menu3 {
+    order: 3;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    list-style: none;
+    position: absolute;
+    width: 100px;
+    background-color: white;
+    padding: 4px;
+  }
+  .banner1-button {
+    @include button_banner1(64%, 63%, 27%, 11%, 10pt, 600);
+    padding: 5px 2px 5px 2px;
+  }
+  ul.double-image {
+    display: flex;
+  }
+  .banner3 {
+    padding-right: 0px;
+  }
+  .banner2__img {
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .banner2-button {
+    @include button_banner2(61%, 10%, 41%, 18%, 10pt);
+    padding: 3px 2px 5px 2px;
+  }
+  .product-button {
+    @include button_product(5px, 5px, 47%, 10%, 10pt);
+  }
+  .product-item {
+    margin-top: 0px;
+  }
+  .product-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+  .rating {
+    font-size: 10pt;
+    padding-top: 0px;
+  }
+  .price {
+    margin-top: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 12pt;
+    color: $violet;
+  }
+  .blog-detail-title {
+    font-size: 12pt;
+  }
+  .social-link-item {
+    display: inline-block;
+    color: #828282;
+    font-size: 9pt;
+    margin-right: 12px;
+  }
+  .location {
+    margin-left: 0px;
+  }
+  .right-menu {
+    margin-left: 50px;
+    line-height: 31px;
+  }
+  .left-menu {
+    margin-left: 0px;
+    line-height: 31px;
+  }
+  p.footer-description {
+    font-family: $font-primary;
+    margin-top: 46px;
+    font-size: 10pt;
+    line-height: 22px;
+    margin-right: 24px;
+  }
+  .footer-menu {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+  }
+  .left-menu {
+    margin-left: 0px;
+    line-height: 29px;
+  }
+  .right-menu {
+    margin-left: 25px;
+    line-height: 29px;
+  }
+  .right-menu li {
+    font-size: 10pt;
+    font-family: "Open Sans", sans-serif;
+  }
+  .left-menu li {
+    font-size: 11pt;
+    font-family: "Open Sans", sans-serif;
+  }
+  .location-detail {
+    margin-left: 11px;
+    margin-right: 0px;
+  }
+  p.location-address {
+    font-size: 10.5pt;
+    margin-right: 20px;
+    margin-top: -5px;
+    margin-left: 0px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+  }
+  i.fa.fa-phone {
+    margin-top: 81px;
+  }
+  p.location-phone {
+    font-size: 10.5pt;
+    margin-top: 40px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+  }
+  p.location-email {
+    font-size: 10.5pt;
+    margin-top: 15px;
+    margin-left: 4px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .last-footer p {
+    font-family: $font-primary;
+    font-size: 9pt;
+    letter-spacing: 0.2px;
+    margin-left: 3px;
+  }
+  .last-footer .payment-method {
+    font-size: 14pt;
+    margin-top: -4px;
+    float: right;
+    margin-left: 0px;
+  }
+  p.ad1 {
+    @include text-ad1(54%, 50%, 16pt);
+  }
+  .text-banner2 {
+    @include text-banner2(39%, 11%, 12pt);
+    line-height: 26px;
+  }
+  .text-banner3 {
+    @include text-banner3(36%, 12%, 9pt);
+    line-height: 17px;
+  }
+}
+/*-------------------------------------------------Ipad-------------------------------------------------------------*/
+@media all and (min-width: 768px) {
+  li.nav-item {
+    font-family: $font-primary;
+    font-size: 7pt;
+    font-weight: 800;
+    margin-top: 8px;
+  }
+  .top-header p {
+    font-size: 8pt;
+  }
+  .top-header a {
+    font-size: 8pt;
+  }
+  .header__main-menu {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px inset;
+    height: 83px;
+  }
+  .header-menu {
+    margin-left: 0px;
+  }
+  .position-absolute {
+    top: -24px;
+  }
+  .header-navbar {
+    align-items: center;
+  }
+  expand-md.navbar-light {
+    z-index: 999;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    list-style: none;
+    position: relative;
+    width: 100px;
+    background-color: white;
+    padding: 0px;
+  }
+  i.fa.fa-search {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14pt;
+    font-size: 8pt;
+  }
+  i.fa.fa-heart-o {
+    margin-right: 5px;
+  }
+  .menu-icon {
+    font-size: 29pt !important;
+    margin-top: 8px;
+  }
+  .product-name {
+    font-size: 12pt;
+  }
+  .logo {
+    width: 47%;
+    @include center();
+  }
+  ul.double-image {
+    display: block;
+  }
+  .banner2__img {
+    margin-top: 27px;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .banner1-button {
+    @include button-banner1(63%, 63%, 23%, 11%, 10pt, 600);
+    padding: 10px 2px 10px 2px;
+  }
+  .banner2-button {
+    @include button-banner2(56%, 11%, 31%, 13%, 8pt);
+    padding: 6px 2px 8px 2px;
+  }
+  .product-button {
+    @include button-product(5px, 5px, 59%, 10%, 11pt);
+    padding: 6px 2px 6px 2px;
+  }
+  .ipad-col {
+    display: block;
+  }
+  .last-footer .payment-method {
+    font-size: 15pt;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  i.fa.fa-phone {
+    margin-top: 66px;
+  }
+  p.location-phone {
+    font-size: 10.5pt;
+    margin-top: -5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .last-footer p {
+    font-family: $font-primary;
+    font-size: 10pt;
+    letter-spacing: 0.2px;
+    margin-left: 3px;
+  }
+  .hr-blog {
+    display: block;
+    width: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 0.1px inset $violet;
+  }
+  .hr-footer {
+    display: block;
+    width: 229px;
+    margin-top: 23px;
+    border: 0.1px inset silver;
+    opacity: 0.2;
+  }
+  p.ad1 {
+    @include text-ad1(54%, 44%, 16pt);
+  }
+  .text-banner2 {
+    @include text-banner2(15%, 18%, 8pt);
+    line-height: 19px;
+  }
+  .text-banner3 {
+    @include text-banner3(38%, 12%, 10pt);
+    line-height: 17px;
+  }
+}
+@media all and (min-width: 992px) {
+  .product-button {
+    @include button_product(5px, 5px, 45%, 9%, 12pt);
+  }
+  .banner1-button {
+    @include button-banner1(63%, 63%, 23%, 11%, 15pt, 600);
+    padding: 10px 2px 10px 2px;
+  }
+  .banner2-button {
+    @include button-banner2(56%, 11%, 31%, 13%, 11pt);
+    padding: 8px 2px 8px 2px;
+  }
+  p.ad1 {
+    @include text-ad1(54%, 44%, 20pt);
+  }
+  i.fa.fa-phone {
+    margin-top: 36px;
+  }
+}
+/*-------------------------------------------------Ipad Pro-------------------------------------------------------------*/
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 40%;
+  }
+  .menu-icon {
+    font-size: 32pt !important;
+    margin: 0px;
+  }
+  .banner1-button {
+    @include button-banner1(63%, 63%, 23%, 11%, 15pt, 600);
+    padding: 10px 2px 10px 2px;
+  }
+  .banner2-button {
+    @include button-banner2(56%, 11%, 31%, 13%, 10pt);
+  }
+  .product-button {
+    @include button-product(5px, 5px, 54%, 9%, 12pt);
+  }
+  .product-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+  li.nav-item {
+    font-family: $font-primary;
+    font-size: 11pt;
+    font-weight: 800;
+    margin-top: 0px;
+  }
+  p.ad1 {
+    @include text-ad1(54%, 48%, 19pt);
+  }
+  .text-banner2 {
+    @include text-banner2(15%, 18%, 11pt);
+    line-height: 25px;
+  }
+  .text-banner3 {
+    @include text-banner3(38%, 12%, 13pt);
+    line-height: 22px;
+  }
+  .footer-menu {
+    justify-content: start;
+  }
+}
+/*-------------------------------------------------Desktop-------------------------------------------------------------*/
+@media all and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .top-header {
+    height: 47px;
+  }
+  .position-absolute {
+    position: relative !important;
+    top: 0px;
+  }
+  .top-header p {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 15px;
+    font-size: 10pt;
+  }
+  .top-header a {
+    font-size: 11pt;
+  }
+  .header-menu1 {
+    order: 1;
+  }
+  .header-menu2 {
+    order: 2;
+  }
+  .header-menu3 {
+    order: 3;
+  }
+  .logo {
+    margin-right: 58px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .header-menu {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  a.nav-link.women {
+    margin-left: 34px;
+  }
+  a.nav-link.men {
+    margin-left: 37px;
+  }
+  a.nav-link.about-us {
+    margin-left: 37px;
+    letter-spacing: -0.2px;
+  }
+  a.nav-link.blog-link {
+    margin-left: 37px;
+  }
+  a.nav-link.collection {
+    margin-left: 39px;
+    letter-spacing: -0.6px;
+  }
+  a.nav-link.contact {
+    margin-left: 38px;
+  }
+  i.fa.fa-search {
+    margin-top: 13px;
+    margin-left: 45px;
+    font-size: 11pt;
+    font-weight: 700;
+  }
+  .header__main-menu i {
+    font-size: 20pt;
+  }
+  .banner {
+    margin-top: 28px;
+  }
+  .big-banner {
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  .double-banner {
+    padding-left: 22px;
+    padding-right: 0px;
+  }
+  .banner1__img {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  p.ad1 {
+    @include text-ad1(55%, 45%, 24pt);
+  }
+  .text-banner2 {
+    @include text-banner2(16%, 22%, 14pt);
+    line-height: 29px;
+  }
+  .text-banner3 {
+    @include text-banner3(43%, 14%, 14pt);
+    line-height: 24px;
+  }
+  ul.double-image {
+    display: block;
+  }
+  img.banner3 {
+    width: 100%;
+  }
+  .banner2__img {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .banner1-button {
+    @include button-banner1(65%, 73%, 14%, 7%, 11pt, 500);
+  }
+  .banner2-button {
+    @include button-banner2(58%, 14%, 30%, 12%, 11pt);
+  }
+  .product {
+    margin-top: 45px;
+    margin-left: 0px;
+  }
+  .ipad-col {
+    display: none;
+  }
+  .title {
+    font-family: $font-primary;
+    line-height: 17px;
+    margin-left: 7px;
+  }
+  .product-content {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  img.product-image {
+    width: 100%;
+    position: relative;
+  }
+  .product-detail {
+    font-family: $font-primary;
+    margin-top: 17px;
+  }
+  .product-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+  }
+  .product-list2 {
+    margin-top: 31px;
+    margin-left: 2px;
+  }
+  .rating {
+    font-size: 9pt;
+    padding-top: 5px;
+  }
+  .price {
+    margin-top: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 12pt;
+    color: $violet;
+  }
+  .product-button {
+    @include button-product(5px, 5px, 39%, 9%, 9pt);
+  }
+  .blog {
+    margin-top: 53px;
+    margin-left: 10px;
+  }
+  p.blog-title__name1 {
+    font-family: $font-primary;
+    font-size: 10pt;
+    color: $violet;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    padding-top: 77px;
+  }
+  .blog-content {
+    margin-top: 52px;
+  }
+  .blog-detail {
+    background-color: white;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 92%;
+  }
+  .blog-detail-title {
+    font-family: $font-primary;
+    font-size: 12pt;
+  }
+  .blog-detail__description {
+    margin-left: 23px;
+    margin-top: 4px;
+  }
+  .blog-detail-description {
+    font-size: 13pt;
+    margin-top: 15px;
+    line-height: none;
+    margin-right: 26px;
+  }
+  .blog-content i {
+    margin-right: 33px;
+    font-size: 8pt;
+  }
+  .title-about {
+    font-family: $font-primary;
+    font-size: 12.5pt;
+    font-weight: 400;
+    color: white;
+    margin-top: 57px;
+    margin-left: -6px;
+  }
+  .title-footer-nav {
+    font-family: $font-primary;
+    font-size: 12.5pt;
+    font-weight: 400;
+    color: white;
+    margin-top: 57px;
+    margin-left: 3px;
+  }
+  .location-title {
+    font-family: $font-primary;
+    font-size: 12.5pt;
+    font-weight: 400;
+    color: white;
+    margin-top: 57px;
+    margin-left: 11px;
+  }
+  p.footer-description {
+    font-family: $font-primary;
+    margin-top: 19px;
+    font-size: 10pt;
+    line-height: 22px;
+    margin-right: 98px;
+    margin-left: -6px;
+  }
+  .social-link {
+    margin-top: 0px;
+    font-size: 0px;
+    display: block;
+    margin-left: 3px;
+  }
+  .social-link-item {
+    display: inline-block;
+    color: #828282;
+    font-size: 12pt;
+    margin-right: 26px;
+  }
+  .footer-menu {
+    margin-top: 2px;
+    display: flex;
+    justify-content: start;
+  }
+  .left-menu {
+    margin-left: 2px;
+    line-height: 30px;
+  }
+  .left-menu li {
+    font-size: 11pt;
+    font-family: "Open Sans", sans-serif;
+  }
+  .right-menu {
+    margin-left: 123px;
+    line-height: 30px;
+  }
+  .right-menu li {
+    font-size: 11pt;
+    font-family: "Open Sans", sans-serif;
+  }
+  .location {
+    margin-left: 100px;
+  }
+  .location-icon {
+    font-size: 9pt;
+    margin-left: 15px;
+  }
+  p.location-address {
+    font-size: 10.5pt;
+    margin-right: 0px;
+    letter-spacing: 0.5px;
+    margin-top: -5px;
+    margin-left: 0px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+  }
+  p.location-phone {
+    font-size: 9pt;
+    margin-top: -4px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+  }
+  p.location-email {
+    font-size: 11pt;
+    margin-top: 13px;
+    margin-left: 4px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .footer-location {
+    margin-top: 10px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .location-detail {
+    margin-left: 11px;
+    margin-right: 35px;
+  }
+  .last-footer {
+    border-top: 0.1px solid #393939;
+    color: white;
+    padding: 0px;
+    margin-top: 25px;
+  }
+  .last-footer p {
+    font-family: $font-primary;
+    font-size: 10pt;
+    letter-spacing: 0.2px;
+    margin-left: 3px;
+    margin-top: 24px;
+  }
+  .last-footer .payment-method {
+    font-size: 15pt;
+    margin-top: 17px;
+    margin-left: 0px;
+    float: right;
+    margin-right: -24px;
+    margin-left: 0px;
+  }
+}
+@media all and (min-width: 1440px) {
+  .header-menu {
+    margin-left: 186px;
+    margin-top: 10px;
+  }
+  .logo {
+    margin-right: 58px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    width: 70%;
+  }
+}

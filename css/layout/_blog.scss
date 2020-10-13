@@ -1,0 +1,89 @@
+section.block-background {
+    background-image: url("../images/background_blog.jpg");
+  }
+  .blog {
+    margin-top: 59px;
+    margin-left: 10px;
+  }
+  .blog-title {
+    text-align: center;
+    &__name2 {
+      font-family: $font-primary;
+      font-size: 19pt;
+      font-weight: 700;
+      color: black;
+      text-align: center;
+      letter-spacing: 1.3px;
+      margin-left: 8px;
+      margin-top: 21px;
+    }
+  }
+  p.blog-title__name1 {
+    font-family: $font-primary;
+    font-size: 10pt;
+    color: $violet;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    padding-top: 92px;
+  }
+  .blog-content {
+    margin-top: 51px;
+    & i {
+      margin-top: 25px;
+      margin-left: 3px;
+      margin-right: 37px;
+      font-size: 8pt;
+    }
+  }
+  .blog-detail {
+    background-color: white;
+    padding-left: 8px;
+    width: 92%;
+    font-family: $font-primary;
+    &__description {
+      margin-left: 14px;
+      margin-top: 12px;
+    }
+    & p.blog-detail-description {
+      font-family: "Open Sans", sans-serif;
+      font-size: 11pt;
+      margin-top: 14px;
+      margin-right: 14px;
+      line-height: 21px;
+      color: #666666;
+      font-weight: 500;
+    }
+  }
+  .blog-detail-title {
+    font-family: $font-primary;
+    font-size: 12pt;
+    color: black;
+  }
+  button.owl-dot {
+    margin-top: 21px;
+    margin-bottom: 16px;
+  }
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-left: 10px;
+    margin-top: 23px;
+    padding-bottom: 48px;
+  }
+  .owl-theme {
+    .owl-dots {
+      .owl-dot {
+        span {
+          background: $violet !important;
+        }
+        &.active,
+        &:hover {
+          span {
+            background: $violet !important;
+            width: 9px !important;
+            height: 10px !important;
+          }
+        }
+      }
+    }
+  }

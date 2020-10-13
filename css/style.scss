@@ -1,0 +1,160 @@
+$violet: #8262b5;
+$font_primary: "Montserrat", sans-serif;
+$text-footer-color: #838383;
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin button_banner1($top,$left,$width,$height,$fontsize,$fontweight) {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight: $fontweight;
+    top: $top;
+    left: $left;
+    background-color: #8262b5;
+    text-transform: capitalize;
+    border: none;
+    width: $width;
+    height: $height;
+    font-family: $font_primary;
+    font-size: $fontsize;
+    @include center();
+}
+@mixin button-banner2($top,$left,$width,$height,$fontsize) {
+    position: absolute;
+    width: $width;
+    height: $height;
+    text-align: center;
+    color: white;
+    top: $top;
+    left: $left;
+    background-color: #8262b5;
+    text-transform: capitalize;
+    border: none;
+    font-family: $font_primary;
+    font-size: $fontsize;
+   @include center();
+}
+@mixin button_product($bottom,$left,$width,$height,$fontsize) {
+    position: absolute;
+    left: $left;
+    bottom: $bottom;
+    width: $width;
+    height: $height;
+    font-size: $fontsize;
+    font-family: $font_primary;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.7px;
+    color: black;
+    background-color: white;
+    @include center();
+}
+@mixin text-ad1($top, $left, $font_size) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: $font_size;
+    letter-spacing: -0.8px;
+}
+@mixin text-banner2($top, $left, $font_size) {
+    position: absolute;
+    color: black;
+    z-index: 2;
+    top: $top;
+    left: $left;
+    font-size: $font_size;
+    letter-spacing: 1.7px;
+    line-height: 6px;
+}
+@mixin text-banner3($top, $left, $font_size) {
+    position: absolute;
+    color: black;
+    z-index: 2;
+    top: $top;
+    left: $left;
+    font-size: $font_size;
+    letter-spacing: 1.7px;
+    line-height: 6px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: $font_primary;
+  font-size: 14pt;
+}
+.hr {
+  &-short {
+    margin-top: 30px;
+    margin-bottom: 1.5rem;
+    width: 52px;
+    border: 0;
+    border-top: 1px solid $violet;
+  }
+  &-long {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 1920px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin-left: -1rem;
+  }
+  &-about {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 0.5px solid #393939;
+  }
+  &-blog {
+    display: block;
+    width: 46px;
+    margin-left: 551px;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 0.1px inset $violet;
+  }
+  &-footer {
+    display: block;
+    margin-top: 23px;
+    border: 0.1px inset silver;
+    opacity: 0.2;
+  }
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid {
+  max-width: 1920px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+}
+p {
+  color: silver;
+}
+*::after {
+  box-sizing: border-box;
+}
+/*-----------------Header-------------------*/
+@import 'layout/header';
+/*-----------------------Banner-------------------------*/
+@import 'layout/banner';
+/*-----------------------------Product------------------------------------*/
+@import 'layout/product';
+/*-----------------Blog--------------------------------*/
+@import 'layout/blog.scss';
+/*-----------------------------Footer-------------------------------------*/
+@import 'layout/footer';
+/*-------------------------Resonsive---------------------------------*/
+@import 'responsive/responsive.scss';

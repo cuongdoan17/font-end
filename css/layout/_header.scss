@@ -1,0 +1,133 @@
+header {
+  margin: 0 auto;
+  padding: 0;
+}
+.header-setting {
+  margin-top: 0px;
+}
+.header {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0;
+  &__main-menu {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px inset;
+    height: 83px;
+  }
+  &__main-menu i {
+    font-size: 20pt;
+  }
+  &__main-menu-list li {
+    display: inline-block;
+  }
+  &__main-menu-link {
+    font-weight: 700;
+    color: black;
+  }
+  &__main-menu-link:hover {
+    color: $violet;
+    text-decoration: none;
+  }
+  & header menu {
+    height: 65px;
+    margin: 0 auto;
+  }
+}
+.logo {
+  width: 68%;
+  margin-left: 31px;
+  margin-top: 20px;
+}
+.header-menu {
+  margin-left: 197px;
+  height: 81px;
+}
+.top-header {
+  background-image: url("../images/back_ground_top.jpg");
+  height: 46px;
+  & p {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 31px;
+    font-size: 10pt;
+  }
+  & a {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 7px;
+    color: silver;
+    text-decoration: none;
+    font-size: 11pt;
+  }
+  & a.shop-setting {
+    margin-right: 10px;
+  }
+  & i {
+    margin-right: 5px;
+  }
+}
+li.nav-item {
+  font-family: $font-primary;
+  font-size: 10pt;
+  font-weight: 800;
+  margin-top: 14px;
+  & a {
+    color: Black !important;
+  }
+  & a:hover {
+    color: violet !important;
+  }
+}
+a.nav-link.women {
+  margin-left: 39px;
+}
+a.nav-link.men {
+  margin-left: 41px;
+}
+a.nav-link.about-us {
+  margin-left: 42px;
+  letter-spacing: -0.2px;
+  white-space: nowrap;
+}
+a.nav-link.blog-link {
+  margin-left: 43px;
+}
+
+a.nav-link.collection {
+  margin-left: 43px;
+  letter-spacing: -0.6px;
+}
+
+a.nav-link.contact {
+  margin-left: 50px;
+}
+
+i.fa.fa-search {
+  margin-top: 10px;
+  margin-left: 58px;
+  font-size: 14pt;
+  font-size: 15pt;
+}
+.menu-icon {
+  font-size: 13pt !important;
+  margin-top: 28px;
+  margin-left: 194px;
+  float: right;
+  & a {
+    margin-right: 10px;
+    color: black !important;
+    border: none;
+  }
+  & a:hover {
+    text-decoration: none !important;
+  }
+}
+i.fa.fa-heart-o {
+  margin-right: 15px;
+}
+.bg-light {
+  background-color: white !important;
+}
