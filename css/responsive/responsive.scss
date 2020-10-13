@@ -343,7 +343,7 @@
 }
 @media all and (max-width: 492px) {
   .header-setting {
-    margin-top: -9px;
+    margin-top: -2px;
   }
 }
 /*-------------------------------------------------Mobile-Vertical-------------------------------------------------------------*/
@@ -385,7 +385,8 @@
     font-size: 8pt;
   }
   .header-setting {
-    margin-top: 4px;
+    margin-top: 6px;
+    padding-bottom: 9px;
   }
   .top-header a {
     font-size: 8pt;
@@ -699,6 +700,9 @@
   .ipad-col {
     display: block;
   }
+  .blog-detail {
+    width: 94%;
+  }
   .last-footer .payment-method {
     font-size: 15pt;
     margin-top: 0px;
@@ -826,9 +830,12 @@
   }
   .top-header p {
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 17px;
     margin-left: 15px;
     font-size: 10pt;
+  }
+  .header-setting {
+    margin-top: 15px;
   }
   .top-header a {
     font-size: 11pt;

@@ -60,7 +60,11 @@ section.block-background {
     font-family: $font-primary;
     font-size: 12pt;
     color: black;
+    font-weight: 600;
   }
+  a.blog-detail-title:hover {
+    color: #a995ca;
+}
   button.owl-dot {
     margin-top: 21px;
     margin-bottom: 16px;
